@@ -28,12 +28,12 @@
                 window.location.href = window.location.href;
             }
         }
-        var Config = require('vue-yog:widget/config.js')
+        var Config = require('{{-app_name-}}:widget/config.js')
         !function(){
             if (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
                 if(!Config.debug) { location.href = Config.redirect }
             }
         }();
-        require('vue-yog:widget/app.js')
+        require('{{-app_name-}}:widget/app.js')
     </script>
 {% endhtml %}
