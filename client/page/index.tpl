@@ -1,4 +1,4 @@
-{% extends 'vue-yog:page/layout.tpl' %}
+{% extends '{{-app_name-}}:page/layout.tpl' %}
 
 {% block content %}
      <div id="pages-container"></div>
