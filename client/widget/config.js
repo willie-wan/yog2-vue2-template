@@ -1,7 +1,7 @@
 module.exports = {
     'debug': true,
-    'name': 'vue-yog',
-    'title': 'vue-yog',
+    'name': '{{-app_name-}}',
+    'title': '{{-app_name-}}',
     'domain': 'https://special.ppmoney.com',
     'domainFolder': '/yog-demo/',
     'redirect': 'https://special.ppmoney.com/new/activity/2016/12/christmas-day-pc/index.html',
