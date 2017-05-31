@@ -1,0 +1,1 @@
+# yog2-vue2-template
