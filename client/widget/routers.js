@@ -6,8 +6,6 @@ import VueRouter from 'vue-router/dist/vue-router.js';
  */
 Vue.use(VueRouter);
 
-// const Home = resolve => require(['./components/home'], resolve)
-
 const NotFound = { template: '<p>Page not found</p>' }
 const Home = { template: '<p>home page</p>' }
 const About = { template: '<p>about page</p>' }
@@ -16,10 +14,6 @@ const routes = [
     { path: '/', component: Home },
     { path: '/about', component: About }
 ]
-
-// const routers = [
-//     { path: 'home', component: Home }
-// ]
 
 const router = new VueRouter({
     routes,
